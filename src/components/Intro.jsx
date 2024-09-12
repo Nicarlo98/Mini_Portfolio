@@ -1,5 +1,5 @@
-
-import logo from "../assets/logo.svg";
+//import React from "react";
+import logo from "../assets/react.svg";
 import Typewriter from "typewriter-effect";
 
 const Intro = () => {
@@ -13,7 +13,7 @@ const Intro = () => {
         Hi there! Im
         <Typewriter
           options={{
-            strings: ["Umair Faheem", "The Project Code"],
+            strings: ["Klievett N Abrahams", "Software Developer"],
             autoStart: true,
             loop: true,
           }}
@@ -21,7 +21,7 @@ const Intro = () => {
         />
       </h3>
 
-      {/* about yourself */}
+      {/* about myself */}
       <div className="desc">
         <p>
           A dedicated and passionate creator with a love for turning ideas into
@@ -32,11 +32,11 @@ const Intro = () => {
         <p>
           Currently immersed in the captivating world of Computer Science{" "}
           <span>Engineering</span> as a college student. My educational roots
-          trace back to <span>Hamdard Public School</span>, where I laid the
+          trace back to <span>Namibian University of Science and Technology</span>, where I laid the
           foundation for my academic journey.
         </p>
         <p>
-          Proficient in <span>web development</span>, Ive honed my skills in
+          Proficient in <span>Web development</span>, Ive honed my skills in
           crafting dynamic and user-friendly websites that seamlessly blend form
           and function. Beyond the code, I immerse myself in the realm of{" "}
           <span>UI designing</span>, ensuring that each digital experience is
@@ -52,27 +52,21 @@ const Intro = () => {
       {/* links */}
       <ul className="socials">
         <li>
-          <a href="mailto:umairfaheem.new042@gmail.com">
+          <a href="klievettnicarlo@gmail.com">
             <i className="ri-mail-line"></i>
             <span>Gmail</span>
           </a>
         </li>
         <li>
-          <a href="https://github.com/UmairFaheem042">
+          <a href="https://github.com/Nicarlo98">
             <i className="ri-github-line"></i>
             <span>GitHub</span>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/umair-faheem-b48765228/">
+          <a href="">
             <i className="ri-linkedin-fill"></i>
             <span>LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UCUJlQr3wuGOhR8w7iIMKhGw">
-            <i className="ri-youtube-line"></i>
-            <span>YouTube</span>
           </a>
         </li>
       </ul>

@@ -1,18 +1,18 @@
+//import React from "react";
+import Project from "./Project";
+import experience from "../database/experience";
 
-import experience from '../database/experience'
-import Item from './Item'
-
-function Experience() {
+const Experience = () => {
   return (
-    <div className='expContainer'>
-        <h3>Work Experience</h3>
-        <div className="container">
-            {experience.map(exp=>(
-                <Item key={exp.id} properties={exp}/>
-            ))}
-        </div>
+    <div className="projects">
+      <h3>Work Experience</h3>
+      <div className="project-container">
+        {experience.map((experience) => (
+          <Project key={experience.id} properties={experience} />
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
